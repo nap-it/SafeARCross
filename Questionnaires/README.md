@@ -1,0 +1,3 @@
+# Questionnaires
+
+The following pdf files showcase the questionnaires handed to users before performing any task ([questionnaire-demo.pdf](https://github.com/nap-it/SafeARCross/blob/main/Questionnaires/questionnaire-demo.pdf)), and after they finished their respective tasks ([questionnaire-no-ard.pdf](https://github.com/nap-it/SafeARCross/blob/main/Questionnaires/questionnaire-no-ar.pdf), [questionnaire-cws.pdf](https://github.com/nap-it/SafeARCross/blob/main/Questionnaires/questionnaire-cws.pdf), [questionnaire-vtl.pdf](https://github.com/nap-it/SafeARCross/blob/main/Questionnaires/questionnaire-vtl.pdf)).
