@@ -22,7 +22,7 @@ To be able to compile this code first you must follow Microsoft's MRTK Unity [se
 - [glTFast](https://github.com/atteneder/glTFast): This plugin was used to import the 3D arrow constructed in Blender (it .gltf format) to the Unity Scene.
 
 ## Demonstration Video
-Check out the [demonstration video](https://www.youtube.com/watch?v=mtQNCFQddNg&ab_channel=NAPIT-Av) for this system and subsequent work done exploring its effects on VRU safety. 
+Check out the [demonstration video](https://youtu.be/PiCTL-jrqdQ) for this system and subsequent work done exploring its effects on VRU safety. 
 
 ## Authors and acknowledgment
 This project is a collaborative effort with the following authors who have contributed to the development and success of this work: André Clérigo, Maximilian Schrapel, Pedro Teixeira, Pedro Rito, Susana Sargento, Alexey Vinel.
