@@ -4,6 +4,8 @@ SafeARCross is an AR application designed for the Microsoft HoloLens 2 aimed to 
 the AR systems. Furthermore, participants rated the systems as excellent in terms of usability.
 
 The Collision Warning System AR interface is designed to alert the user through a multi-modal warning system, that is activated when it receives a new DENM via MQTT, immediately alerting the user with: (1) a visual notification within the user’s center of view prompting to halt; (2) a 3D arrow pointing to the direction of the hazard; (3) and an 800 Hz tone lasting one second. As DENMs are continuously being transmitted during hazardous events, the visual alert remains active, only disappearing when a new message has not been received for more than one second.
+
+The Virtual Traffic Lights displayed inform Vulnerable Road users (VRUs) of vehicle intentions, enhancing crossing safety. The interface signals when it is unsafe to cross by using visual cues and a bell-like sound to capture attention when the traffic light changes. The system relies on exchanging data through MQTT such as VRU Awareness Messages (VAMs), Signal Phase and Timing Messages (SPATEMs), and MAP Extended Messages (MAPEMs), which describe intersection layouts and traffic light phases. By analyzing these messages, the system determines the VRU's lane and displays the appropriate traffic signal accordingly.
 <br>
 
 ## Getting started
@@ -24,7 +26,7 @@ To be able to compile this code first you must follow Microsoft's MRTK Unity [se
 ## Demonstration Video
 Check out the [demonstration video](https://youtu.be/PiCTL-jrqdQ) for this system and subsequent work done exploring its effects on VRU safety. 
 
-## Authors and acknowledgment
+## Authors and acknowledgement
 This project is a collaborative effort with the following authors who have contributed to the development and success of this work: André Clérigo, Maximilian Schrapel, Pedro Teixeira, Pedro Rito, Susana Sargento, Alexey Vinel.
 
 For any use of this code, data, or design, please refer to the [CITATION.cff](https://github.com/nap-it/SafeARCross/blob/main/CITATION.cff) file in the repository to properly acknowledge and cite the contributions of these authors.
